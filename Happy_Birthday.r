@@ -43,7 +43,7 @@ while (1) {
     candle(c(i+.9,5))
     candle(c(i+1.1,4.5))
   }
-  Sys.sleep(0.5)
+  Sys.sleep(1)
   for (i in 1:5) {
     i = i * 1.4
     candle2(c(i+.3,4.5))
@@ -52,6 +52,6 @@ while (1) {
     candle2(c(i+.9,5))
     candle2(c(i+1.1,4.5))
   }
-  Sys.sleep(0.5)
+  Sys.sleep(1)
   
 }
